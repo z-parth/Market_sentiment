@@ -1,0 +1,58 @@
+# ── Data ──────────────────────────────────────────────────────────────────
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ──────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── Environment Variables ─────────────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── OS ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Outputs & Exports ─────────────────────────────────────────────────────
+outputs/
+exports/
+figures/
+*.png
+*.jpg
+*.pdf
+*.html
+
+# ── Logs ──────────────────────────────────────────────────────────────────
+*.log
+logs/
